@@ -28,6 +28,15 @@ function johnLennonFacts(facts) {
   return excitedFacts
 }
 
+function iLoveTheBeatles(n) {
+  var loveArray = []
+
+  do {
+    loveArray.push("I love the Beatles!")
+    n += 1
+  } while (n < 15)
+  return loveArray
+}
 //1) Beatles Loops returns an array of strings containing what instruments each musician plays:
 //2) Beatles Loops johnLennonFacts returns an array of strings with exclamation points:
 //3) Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 :
