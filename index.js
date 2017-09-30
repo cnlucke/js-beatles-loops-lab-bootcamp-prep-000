@@ -1,9 +1,17 @@
+var musicians = ["John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison"]
+var instruments = ["rhythm guitar", "bass", "drums", "lead guitar"]
+
 function theBeatlesPlay(musicians, instruments) {
-  
+  var theBeatlesPlayArray = []
+
+  for(let i = 0; i < theBeatlesPlayArray.length; i++) {
+    theBeatlesPlayArray[i].push(musicians[i] + "plays " + instruments[i])
+  }
+  return theBeatlesPlayArray
 }
 
 function johnLennonFacts() {
-  
+
 }
 
 1) Beatles Loops returns an array of strings containing what instruments each musician plays:
